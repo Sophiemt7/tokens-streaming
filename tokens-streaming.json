@@ -1,0 +1,842 @@
+{
+  "global": {
+    "Stroke": {
+      "Purple 100": {
+        "value": "#673deb",
+        "type": "color"
+      }
+    },
+    "Color": {
+      "Blue 100": {
+        "value": "#3db9eb",
+        "type": "color"
+      }
+    },
+    "Footer": {
+      "Purple": {
+        "value": "#673debe6",
+        "type": "color"
+      },
+      "TIti Extra light 9": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-6}",
+          "lineHeight": "{lineHeights.1}",
+          "fontSize": "{fontSize.0}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      }
+    },
+    "Logo": {
+      "Linear BP": {
+        "value": "linear-gradient(180deg, #3db9eb 0%, #663deb 100%)",
+        "type": "color"
+      }
+    },
+    "Button": {
+      "Blue 70": {
+        "value": "#3db9ebb3",
+        "type": "color"
+      },
+      "Blue 55": {
+        "value": "#3db9eb8c",
+        "type": "color"
+      },
+      "Blue 30": {
+        "value": "#3db9eb4d",
+        "type": "color"
+      },
+      "LinearPB": {
+        "value": "linear-gradient(0deg, #673deb 0%, #3db9eb 0.01%, #3db9eb00 100%)",
+        "type": "color"
+      },
+      "Titi Reg 12": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-0}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.1}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Al BOld 14": {
+        "value": {
+          "fontFamily": "{fontFamilies.alegreya-sans-sc}",
+          "fontWeight": "{fontWeights.alegreya-sans-sc-1}",
+          "lineHeight": "{lineHeights.1}",
+          "fontSize": "{fontSize.3}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Titi 13": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-0}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.2}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      }
+    },
+    "Product": {
+      "Linear P 40": {
+        "value": "linear-gradient(0deg, #673deb 0%, #673deb00 100%, #673deb30 100%)",
+        "type": "color"
+      },
+      "Linear P 80": {
+        "value": "linear-gradient(0deg, #673deb 0%, #000000 99.99%, #673deb00 100%)",
+        "type": "color"
+      },
+      "Linear Pvs 40": {
+        "value": "linear-gradient(180deg, #673deb 0%, #673deb00 100%, #673deb30 100%)",
+        "type": "color"
+      },
+      "linear BW": {
+        "value": "linear-gradient(115deg, #000000 0%, #ffffff00 100%)",
+        "type": "color"
+      },
+      "Linear P 4": {
+        "value": "linear-gradient(180deg, #673debcc 0%, #673deb00 100%, #673deb30 100%)",
+        "type": "color"
+      }
+    },
+    "Tipograp": {
+      "White 100": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "Gris": {
+        "value": "#c4c4c4",
+        "type": "color"
+      },
+      "Purple 50": {
+        "value": "#673deb80",
+        "type": "color"
+      }
+    },
+    "Fondo": {
+      "Black 100": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "Black 67": {
+        "value": "#2f4452",
+        "type": "color"
+      }
+    },
+    "Elevations": {
+      "Drop 0": {
+        "value": {
+          "color": "#0000001a",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 2,
+          "blur": 4,
+          "spread": 0
+        },
+        "type": "boxShadow"
+      },
+      "Inner 0": {
+        "value": {
+          "color": "#bad3e933",
+          "type": "innerShadow",
+          "x": 0,
+          "y": 4,
+          "blur": 6,
+          "spread": 4
+        },
+        "type": "boxShadow"
+      },
+      "Inner rect0": {
+        "value": {
+          "color": "#bad3e933",
+          "type": "innerShadow",
+          "x": 0,
+          "y": 1,
+          "blur": 2,
+          "spread": 1
+        },
+        "type": "boxShadow"
+      },
+      "Drop 8": {
+        "value": {
+          "color": "#00000040",
+          "type": "dropShadow",
+          "x": 6,
+          "y": 8,
+          "blur": 8,
+          "spread": 0
+        },
+        "type": "boxShadow"
+      },
+      "Inner -1": {
+        "value": {
+          "color": "#000000ab",
+          "type": "innerShadow",
+          "x": -1,
+          "y": -2,
+          "blur": 2,
+          "spread": 1
+        },
+        "type": "boxShadow"
+      },
+      "Inner -2": {
+        "value": {
+          "color": "#000000ab",
+          "type": "innerShadow",
+          "x": -1,
+          "y": -2,
+          "blur": 4,
+          "spread": 1
+        },
+        "type": "boxShadow"
+      }
+    },
+    "fontFamilies": {
+      "titillium-web": {
+        "value": "Titillium Web",
+        "type": "fontFamilies"
+      },
+      "alegreya-sans-sc": {
+        "value": "Alegreya Sans SC",
+        "type": "fontFamilies"
+      }
+    },
+    "lineHeights": {
+      "0": {
+        "value": "16",
+        "type": "lineHeights"
+      },
+      "1": {
+        "value": "AUTO",
+        "type": "lineHeights"
+      },
+      "2": {
+        "value": "20",
+        "type": "lineHeights"
+      },
+      "3": {
+        "value": "32",
+        "type": "lineHeights"
+      },
+      "4": {
+        "value": "22",
+        "type": "lineHeights"
+      },
+      "5": {
+        "value": "18",
+        "type": "lineHeights"
+      },
+      "6": {
+        "value": "50",
+        "type": "lineHeights"
+      },
+      "7": {
+        "value": "38",
+        "type": "lineHeights"
+      },
+      "8": {
+        "value": "40",
+        "type": "lineHeights"
+      }
+    },
+    "fontWeights": {
+      "titillium-web-0": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "alegreya-sans-sc-1": {
+        "value": "Bold",
+        "type": "fontWeights"
+      },
+      "titillium-web-2": {
+        "value": "Bold",
+        "type": "fontWeights"
+      },
+      "titillium-web-3": {
+        "value": "SemiBold",
+        "type": "fontWeights"
+      },
+      "alegreya-sans-sc-4": {
+        "value": "Medium",
+        "type": "fontWeights"
+      },
+      "alegreya-sans-sc-5": {
+        "value": "ExtraBold",
+        "type": "fontWeights"
+      },
+      "titillium-web-6": {
+        "value": "ExtraLight",
+        "type": "fontWeights"
+      }
+    },
+    "fontSize": {
+      "0": {
+        "value": "9",
+        "type": "fontSizes"
+      },
+      "1": {
+        "value": "12",
+        "type": "fontSizes"
+      },
+      "2": {
+        "value": "13",
+        "type": "fontSizes"
+      },
+      "3": {
+        "value": "14",
+        "type": "fontSizes"
+      },
+      "4": {
+        "value": "16",
+        "type": "fontSizes"
+      },
+      "5": {
+        "value": "18",
+        "type": "fontSizes"
+      },
+      "6": {
+        "value": "20",
+        "type": "fontSizes"
+      },
+      "7": {
+        "value": "22",
+        "type": "fontSizes"
+      },
+      "8": {
+        "value": "24",
+        "type": "fontSizes"
+      },
+      "9": {
+        "value": "28",
+        "type": "fontSizes"
+      },
+      "10": {
+        "value": "32",
+        "type": "fontSizes"
+      },
+      "11": {
+        "value": "36",
+        "type": "fontSizes"
+      },
+      "12": {
+        "value": "48",
+        "type": "fontSizes"
+      },
+      "13": {
+        "value": "64",
+        "type": "fontSizes"
+      }
+    },
+    "letterSpacing": {
+      "0": {
+        "value": "0%",
+        "type": "letterSpacing"
+      }
+    },
+    "paragraphSpacing": {
+      "0": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      },
+      "1": {
+        "value": "10",
+        "type": "paragraphSpacing"
+      },
+      "2": {
+        "value": "20",
+        "type": "paragraphSpacing"
+      }
+    },
+    "Párrafo": {
+      "Titi 12 hei20": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-0}",
+          "lineHeight": "{lineHeights.2}",
+          "fontSize": "{fontSize.1}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Titi 12 U": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-0}",
+          "lineHeight": "{lineHeights.2}",
+          "fontSize": "{fontSize.1}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.underline}"
+        },
+        "type": "typography"
+      },
+      "Titi 9": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-0}",
+          "lineHeight": "{lineHeights.3}",
+          "fontSize": "{fontSize.0}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Titi REg 16_22": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-0}",
+          "lineHeight": "{lineHeights.4}",
+          "fontSize": "{fontSize.4}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Titi 12 bold": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-2}",
+          "lineHeight": "{lineHeights.3}",
+          "fontSize": "{fontSize.1}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      }
+    },
+    "Subtitulo": {
+      "Titi Semi 16": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-3}",
+          "lineHeight": "{lineHeights.4}",
+          "fontSize": "{fontSize.4}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Al medium 13": {
+        "value": {
+          "fontFamily": "{fontFamilies.alegreya-sans-sc}",
+          "fontWeight": "{fontWeights.alegreya-sans-sc-4}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.2}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Titi Reg 16": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-0}",
+          "lineHeight": "{lineHeights.5}",
+          "fontSize": "{fontSize.4}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      }
+    },
+    "Titulo": {
+      "Al ExtraBold 18": {
+        "value": {
+          "fontFamily": "{fontFamilies.alegreya-sans-sc}",
+          "fontWeight": "{fontWeights.alegreya-sans-sc-5}",
+          "lineHeight": "{lineHeights.1}",
+          "fontSize": "{fontSize.5}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      }
+    },
+    "Number": {
+      "Al Extrabold 24": {
+        "value": {
+          "fontFamily": "{fontFamilies.alegreya-sans-sc}",
+          "fontWeight": "{fontWeights.alegreya-sans-sc-5}",
+          "lineHeight": "{lineHeights.1}",
+          "fontSize": "{fontSize.8}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      }
+    },
+    "Tabla": {
+      "Titulo Titi bold 13": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-2}",
+          "lineHeight": "{lineHeights.4}",
+          "fontSize": "{fontSize.2}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      }
+    },
+    "Button Desk": {
+      "Al Bold 24": {
+        "value": {
+          "fontFamily": "{fontFamilies.alegreya-sans-sc}",
+          "fontWeight": "{fontWeights.alegreya-sans-sc-1}",
+          "lineHeight": "{lineHeights.1}",
+          "fontSize": "{fontSize.8}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Titi 20": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-0}",
+          "lineHeight": "{lineHeights.3}",
+          "fontSize": "{fontSize.6}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Titi 18": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-0}",
+          "lineHeight": "{lineHeights.3}",
+          "fontSize": "{fontSize.5}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      }
+    },
+    "Titulo Desk": {
+      "Al Extrabold 48": {
+        "value": {
+          "fontFamily": "{fontFamilies.alegreya-sans-sc}",
+          "fontWeight": "{fontWeights.alegreya-sans-sc-5}",
+          "lineHeight": "{lineHeights.6}",
+          "fontSize": "{fontSize.12}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.1}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Al Medium 32": {
+        "value": {
+          "fontFamily": "{fontFamilies.alegreya-sans-sc}",
+          "fontWeight": "{fontWeights.alegreya-sans-sc-4}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.10}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Al extrabold 36": {
+        "value": {
+          "fontFamily": "{fontFamilies.alegreya-sans-sc}",
+          "fontWeight": "{fontWeights.alegreya-sans-sc-5}",
+          "lineHeight": "{lineHeights.1}",
+          "fontSize": "{fontSize.11}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      }
+    },
+    "Number Desk": {
+      "Al Extra bold 64": {
+        "value": {
+          "fontFamily": "{fontFamilies.alegreya-sans-sc}",
+          "fontWeight": "{fontWeights.alegreya-sans-sc-5}",
+          "lineHeight": "{lineHeights.6}",
+          "fontSize": "{fontSize.13}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      }
+    },
+    "Parrafo Desk": {
+      "Titi reg 28": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-0}",
+          "lineHeight": "{lineHeights.3}",
+          "fontSize": "{fontSize.9}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Titi 14": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-0}",
+          "lineHeight": "{lineHeights.3}",
+          "fontSize": "{fontSize.3}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Titi reg 28 32": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-0}",
+          "lineHeight": "{lineHeights.3}",
+          "fontSize": "{fontSize.9}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Titi 16": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-0}",
+          "lineHeight": "{lineHeights.3}",
+          "fontSize": "{fontSize.4}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Titi 22": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-0}",
+          "lineHeight": "{lineHeights.3}",
+          "fontSize": "{fontSize.7}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Titi 22 U": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-0}",
+          "lineHeight": "{lineHeights.2}",
+          "fontSize": "{fontSize.7}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.underline}"
+        },
+        "type": "typography"
+      },
+      "Titi 18 Bold": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-2}",
+          "lineHeight": "{lineHeights.3}",
+          "fontSize": "{fontSize.5}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Titi 20 38": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-0}",
+          "lineHeight": "{lineHeights.7}",
+          "fontSize": "{fontSize.6}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.2}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      }
+    },
+    "Subtitulo Desk": {
+      "Al medium 22": {
+        "value": {
+          "fontFamily": "{fontFamilies.alegreya-sans-sc}",
+          "fontWeight": "{fontWeights.alegreya-sans-sc-4}",
+          "lineHeight": "{lineHeights.0}",
+          "fontSize": "{fontSize.7}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Titi 18 32": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-0}",
+          "lineHeight": "{lineHeights.3}",
+          "fontSize": "{fontSize.5}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      }
+    },
+    "Footer Desk": {
+      "Titi Extra light 13": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-6}",
+          "lineHeight": "{lineHeights.1}",
+          "fontSize": "{fontSize.2}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      },
+      "Titi Extra light18": {
+        "value": {
+          "fontFamily": "{fontFamilies.titillium-web}",
+          "fontWeight": "{fontWeights.titillium-web-6}",
+          "lineHeight": "{lineHeights.8}",
+          "fontSize": "{fontSize.5}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography"
+      }
+    },
+    "textCase": {
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      }
+    },
+    "textDecoration": {
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "underline": {
+        "value": "underline",
+        "type": "textDecoration"
+      }
+    },
+    "paragraphIndent": {
+      "0": {
+        "value": "0px",
+        "type": "dimension"
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}

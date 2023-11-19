@@ -6,6 +6,80 @@
         "type": "color"
       }
     },
+    "Especific": {
+      "Color_primary": {
+        "value": "{Footer.Purple}",
+        "type": "color"
+      },
+      "Color_secondary": {
+        "value": "{Color.Blue 100}",
+        "type": "color"
+      },
+      "Footer": {
+        "value": "{Footer.Purple}",
+        "type": "color"
+      },
+      "Color_logo": {
+        "value": "{Logo.Linear BP}",
+        "type": "color"
+      },
+      "Blue_700_Btn": {
+        "value": "{Button.Blue 70}",
+        "type": "color"
+      },
+      "Blue_550_Btn": {
+        "value": "{Button.Blue 55}",
+        "type": "color"
+      },
+      "Blue_300_Btn": {
+        "value": "{Button.Blue 30}",
+        "type": "color"
+      },
+      "Blue_gradient_Btn": {
+        "value": "{Button.LinearPB}",
+        "type": "color"
+      },
+      "Purple_400_gradient_Product": {
+        "value": "{Product.Linear P 40}",
+        "type": "color"
+      },
+      "Purple_800_gradient_Product": {
+        "value": "{Product.Linear P 80}",
+        "type": "color"
+      },
+      "Purple_400_gradient0_Product": {
+        "value": "{Product.Linear Pvs 40}",
+        "type": "color"
+      },
+      "Black_gradient_product": {
+        "value": "{Product.linear BW}",
+        "type": "color"
+      },
+      "Purple_400_change_product": {
+        "value": "{Product.Linear P 4}",
+        "type": "color"
+      },
+      "White_100_Tipograph": {
+        "value": "{Tipograp.White 100}",
+        "type": "color"
+      },
+      "Gris_100_Tipograph": {
+        "value": "{Tipograp.Gris}",
+        "type": "color"
+      },
+      "Purple_500_Tipograph": {
+        "value": "{Tipograp.Purple 50}",
+        "type": "color"
+      },
+      "Black_100_BG": {
+        "value": "{Fondo.Black 100}",
+        "type": "color"
+      },
+      "Black_670_BG": {
+        "value": "{Fondo.Black 67}",
+        "type": "color"
+      }
+    },
     "Color": {
       "Blue 100": {
         "value": "#3db9eb",
